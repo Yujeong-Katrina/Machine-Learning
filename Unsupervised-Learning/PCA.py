@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import fetch_olivetti_faces
 
-dataset = fetch_olivetti_faces(data_home="./") #현재 디렉토리에 데이터 셋 저장
+dataset = fetch_olivetti_faces(data_home="./data") #data 디렉토리에 데이터 셋 저장
 data = dataset.data
 print(data.shape) #400images and 4096 pixels
 
